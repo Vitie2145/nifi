@@ -16,17 +16,15 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "1f64df56-2e31-36d8-bf3a-b1364ae4886f",
+        "identifier" : "dd45707d-1570-34c5-a88a-37eb21f83cc9",
         "inputPorts" : [ ],
-        "instanceIdentifier" : "018d1036-2ee1-1b9c-d208-e8ae9d16d08c",
+        "instanceIdentifier" : "018d1045-2ee1-1b9c-1047-9b0ac0bb6d3e",
         "labels" : [ ],
-        "logFileSuffix" : "",
         "name" : "DWH",
         "outputPorts" : [ ],
-        "parameterContextName" : "parameter_context_test",
         "position" : {
-          "x" : -984.0,
-          "y" : -1008.0
+          "x" : -894.9316344831391,
+          "y" : -982.8878734276336
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -42,15 +40,15 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "1f64df56-2e31-36d8-bf3a-b1364ae4886f",
-          "identifier" : "ebb7923f-ddeb-3e4b-b9f4-d553c2e1a044",
-          "instanceIdentifier" : "018d103c-2ee1-1b9c-fa0d-b210b0c98e2b",
+          "groupIdentifier" : "dd45707d-1570-34c5-a88a-37eb21f83cc9",
+          "identifier" : "67b1b07a-2dd7-317f-9907-d41a349a1c41",
+          "instanceIdentifier" : "018d1046-2ee1-1b9c-5fd1-394568442b75",
           "maxBackoffPeriod" : "10 mins",
           "name" : "ExecuteSQL",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 117.00003779799749,
-            "y" : 202.9999625537962
+            "x" : 232.64945497961588,
+            "y" : 56.18144179201471
           },
           "properties" : {
             "esql-max-rows" : "0",
@@ -164,43 +162,7 @@
         "variables" : { }
       },
       "flowEncodingVersion" : "1.0",
-      "parameterContexts" : {
-        "parameter_context_test" : {
-          "componentType" : "PARAMETER_CONTEXT",
-          "inheritedParameterContexts" : [ ],
-          "name" : "parameter_context_test",
-          "parameters" : [ {
-            "description" : "",
-            "name" : "db_driver_path",
-            "provided" : false,
-            "sensitive" : false,
-            "value" : "3"
-          }, {
-            "description" : "",
-            "name" : "db_user",
-            "provided" : false,
-            "sensitive" : false,
-            "value" : "4"
-          }, {
-            "description" : "",
-            "name" : "db_connection_url",
-            "provided" : false,
-            "sensitive" : false,
-            "value" : "1"
-          }, {
-            "description" : "",
-            "name" : "db_password",
-            "provided" : false,
-            "sensitive" : true
-          }, {
-            "description" : "",
-            "name" : "db_driver_class_name",
-            "provided" : false,
-            "sensitive" : false,
-            "value" : "2"
-          } ]
-        }
-      },
+      "parameterContexts" : { },
       "parameterProviders" : { }
     }
   }
